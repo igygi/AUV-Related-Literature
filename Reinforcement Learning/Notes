@@ -1,1 +1,3 @@
 This folder contains related literature on reinforcement learning.
+
+1. Transparency and Explanation in Deep Reinforcement Learning Neural Networks - Iyer, Li, Li, Lweis, Sunda, Sycara (AAAI AIES 2018) - uses object channels, which are appended to the RGB channels of the input image before forward propagation through the CNN, and object saliency maps, which represent each object's influence on the agent's decision, to visualize the agent's reasoning process
