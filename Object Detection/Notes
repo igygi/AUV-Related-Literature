@@ -1,5 +1,5 @@
 This folder contains related literature on object detection. 
 
-1. Mask R-CNN - He, Gkioxari, Dollar, Girschick (FAIR) - 2018
+1. Mask R-CNN - He, Gkioxari, Dollar, Girschick (FAIR) - ICCV 2017
    - extends the Faster R-CNN architecture by adding a mask branch for instance segmentation; in addition, uses RoIAlign instead of RoIPool, resulting to better object detection performance
    - repository: https://github.com/facebookresearch/Detectron
