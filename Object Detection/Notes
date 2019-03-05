@@ -3,3 +3,9 @@ This folder contains related literature on object detection.
 1. Mask R-CNN - He, Gkioxari, Dollar, Girschick (FAIR) - ICCV 2017
    - extends the Faster R-CNN architecture by adding a mask branch for instance segmentation; in addition, uses RoIAlign instead of RoIPool, resulting to better object detection performance
    - repository: https://github.com/facebookresearch/Detectron
+   
+2. R-FCN-3000 at 30fps - Decoupling Detection and Classification - Singh, Li, Sharma, Davis - CVPR 2018
+   - decouples object detection and classification by using 'superclasses' for object detection
+   - the classifier is then applied on regions that pass a certain threshold, based on the object detection results
+   - objectness score and classification score are then multiplied to obtain the final class probabilities
+   - repository: https://github.com/mahyarnajibi/SNIPER/blob/cvpr3k/README.md
