@@ -15,3 +15,5 @@ This folder contains related literature on object detection.
    - bottom-up path augmentation connects low-layer information to higher-layer information for better information propagation
    - adaptive feature policy pools features from different levels since large (small) proposals may benefit from accessing low (high)-level features
    - fully connected fusion adds a fully connected layer to the mask prediction branch (originally contains just an FCN) since fc layers are location sensitive, allowing the model to adapt to different spatial locations
+
+For a good explanation on feature pyramid networks (FPN) and region proposal networks (RPN), check https://medium.com/@jonathan_hui/understanding-feature-pyramid-networks-for-object-detection-fpn-45b227b9106c. 
