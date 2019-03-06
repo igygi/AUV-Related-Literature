@@ -9,3 +9,9 @@ This folder contains related literature on object detection.
    - the classifier is then applied on regions that pass a certain threshold, based on the object detection results
    - objectness score and classification score are then multiplied to obtain the final class probabilities
    - repository: https://github.com/mahyarnajibi/SNIPER/blob/cvpr3k/README.md
+
+3. Path Aggregation Network for Instance Segmentation - Liu, Qi, Qin, Shi, Sia - CVPR 2018
+   - introduces 3 major improvements over Mask R-CNN namely, bottom-up path augmentation, adaptive feature policy, and fully connected fusion in mask reduction
+   - bottom-up path augmentation connects low-layer information to higher-layer information for better information propagation
+   - adaptive feature policy pools features from different levels since large (small) proposals may benefit from accessing low (high)-level features
+   - fully connected fusion adds a fully connected layer to the mask prediction branch (originally contains just an FCN) since fc layers are location sensitive, allowing the model to adapt to different spatial locations
